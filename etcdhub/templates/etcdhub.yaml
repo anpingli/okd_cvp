@@ -33,8 +33,8 @@
                 "ports": [
                     {
                         "name": "restapi",
-                        "port": 2380,
-                        "targetPort": 2380
+                        "port": 2379,
+                        "targetPort": 2379
                     }
                 ],
                 "selector": {
@@ -55,8 +55,8 @@
                 "ports": [
                     {
                         "name": "cluster",
-                        "port": 2379,
-                        "targetPort": 2739
+                        "port": 2380,
+                        "targetPort": 2380
                     }
                 ],
                 "selector": {
